@@ -10,29 +10,34 @@ namespace DistanceConverter
     {
         static void Main(string[] args)
         {
-            for (int feet = 1; feet <= 10; ++feet)
+            Console.WriteLine("ARGS.length = {0}", args.Length);
+
+            if (args.Length >= 1 && args[0] == "-tom")
             {
-                double meter = FeetToMeter(feet);
+                PrintFeetToMeterList(1, 10);
+            }
+            else
+            {
+                PrintMeterToFeetList(1, 10);
+            }
+        }
+
+        static void PrintFeetToMeterList(int start, int end)
+        {
+            for (int feet = start; feet <= end; ++feet)
+            {
+                double meter = FeetConverter.ToMeter(feet);
                 Console.WriteLine("{0}ft = {1:0.0000}m", feet, meter);
             }
+        }
 
-            Console.WriteLine();
-
-            for (int meter = 1; meter <= 10; ++meter)
+        static void PrintMeterToFeetList(int start, int end)
+        {
+            for (int meter = start; meter <= end; ++meter)
             {
-                double feet = MeterToFeet(meter);
+                double feet = FeetConverter.FromMeter(meter);
                 Console.WriteLine("{0}m = {1:0.0000}ft", meter, feet);
             }
-        }
-
-        static double FeetToMeter(double feet)
-        {
-            return feet * 0.3048;
-        }
-
-        static double MeterToFeet(double meter)
-        {
-            return meter / 0.3048;
         }
     }
 }
