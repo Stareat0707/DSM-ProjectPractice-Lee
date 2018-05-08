@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceConverter", "DistanceConverter\DistanceConverter.csproj", "{B0491245-F8DA-4F7C-A997-CE27D2F1002D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintProfile", "PrintProfile\PrintProfile.csproj", "{736B7F4C-2346-4077-BEF6-7190AF70C9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home", "Home\Home.csproj", "{C7C08E88-0288-4F40-A53F-56ADA8955C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B0491245-F8DA-4F7C-A997-CE27D2F1002D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0491245-F8DA-4F7C-A997-CE27D2F1002D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0491245-F8DA-4F7C-A997-CE27D2F1002D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736B7F4C-2346-4077-BEF6-7190AF70C9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736B7F4C-2346-4077-BEF6-7190AF70C9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736B7F4C-2346-4077-BEF6-7190AF70C9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736B7F4C-2346-4077-BEF6-7190AF70C9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C08E88-0288-4F40-A53F-56ADA8955C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C08E88-0288-4F40-A53F-56ADA8955C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C08E88-0288-4F40-A53F-56ADA8955C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C08E88-0288-4F40-A53F-56ADA8955C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
