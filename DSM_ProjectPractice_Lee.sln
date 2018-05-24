@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Material_ver1.0", "Material\Material_ver1.0.csproj", "{BF7B7692-B0FC-4028-8026-B10CE839CE8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_08_나성식_airplane_reservation", "01_08_나성식_airplane_reservation\01_08_나성식_airplane_reservation.csproj", "{D77453DB-5B48-4C6E-8D4F-2CBDA3D3E182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{BF7B7692-B0FC-4028-8026-B10CE839CE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF7B7692-B0FC-4028-8026-B10CE839CE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF7B7692-B0FC-4028-8026-B10CE839CE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77453DB-5B48-4C6E-8D4F-2CBDA3D3E182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77453DB-5B48-4C6E-8D4F-2CBDA3D3E182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77453DB-5B48-4C6E-8D4F-2CBDA3D3E182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77453DB-5B48-4C6E-8D4F-2CBDA3D3E182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
