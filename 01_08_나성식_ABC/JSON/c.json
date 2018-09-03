@@ -1,0 +1,65 @@
+[
+  {
+    "Number": 1,
+    "Name": "가가가",
+    "KoreanScore": 100,
+    "MathScore": 100,
+    "TotalScore": 200,
+    "Average": 100.0,
+    "Rank": 1
+  },
+  {
+    "Number": 2,
+    "Name": "나나나",
+    "KoreanScore": 99,
+    "MathScore": 0,
+    "TotalScore": 99,
+    "Average": 49.5,
+    "Rank": 4
+  },
+  {
+    "Number": 3,
+    "Name": "다다다",
+    "KoreanScore": 98,
+    "MathScore": 99,
+    "TotalScore": 197,
+    "Average": 98.5,
+    "Rank": 2
+  },
+  {
+    "Number": 4,
+    "Name": "라라라",
+    "KoreanScore": 97,
+    "MathScore": 0,
+    "TotalScore": 97,
+    "Average": 48.5,
+    "Rank": 5
+  },
+  {
+    "Number": 5,
+    "Name": "마마마",
+    "KoreanScore": 96,
+    "MathScore": 98,
+    "TotalScore": 194,
+    "Average": 97.0,
+    "Rank": 3
+  },
+  {
+    "Number": 7,
+    "Name": "사사사",
+    "KoreanScore": 0,
+    "MathScore": 97,
+    "TotalScore": 97,
+    "Average": 48.5,
+    "Rank": 6
+  },
+  {
+    "Number": 9,
+    "Name": "자자자",
+    "KoreanScore": 0,
+    "MathScore": 96,
+    "TotalScore": 96,
+    "Average": 48.0,
+    "Rank": 7
+  }
+]

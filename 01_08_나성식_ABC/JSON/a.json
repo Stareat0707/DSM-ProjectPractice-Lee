@@ -1,0 +1,27 @@
+[
+    {
+        "Number" : 1,
+        "Name" : "가가가",
+        "KoreanScore" : 100
+    },
+    {
+        "Number" : 2,
+        "Name" : "나나나",
+        "KoreanScore" : 99
+    },
+    {
+        "Number" : 3,
+        "Name" : "다다다",
+        "KoreanScore" : 98
+    },
+    {
+        "Number" : 4,
+        "Name" : "라라라",
+        "KoreanScore" : 97
+    },
+    {
+        "Number" : 5,
+        "Name" : "마마마",
+        "KoreanScore" : 96
+    }
+]

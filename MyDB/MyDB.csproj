@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D77453DB-5B48-4C6E-8D4F-2CBDA3D3E182}</ProjectGuid>
+    <ProjectGuid>{BF9E81BC-DBEE-4917-9ED5-74AB23719139}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_08_나성식_airplane_reservation</RootNamespace>
-    <AssemblyName>01_08_나성식_airplane_reservation</AssemblyName>
+    <RootNamespace>MyDB</RootNamespace>
+    <AssemblyName>MyDB</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -131,12 +131,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Airplane.cs" />
-    <Compile Include="Database.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Northwind.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reserve.cs" />
-    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
