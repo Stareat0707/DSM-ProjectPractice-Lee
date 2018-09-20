@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_08_나성식_ABC
+namespace _01_08_나성식_ABCMonitor
 {
     class Student
     {
@@ -26,6 +26,5 @@ namespace _01_08_나성식_ABC
                 return (KoreanScore + MathScore) / 2.0M;
             }
         }
-        public int Rank { get; set; }
     }
 }
